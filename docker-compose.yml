@@ -1,0 +1,11 @@
+version: "3"
+services: 
+    ml-workspace:
+        image: mltooling/ml-workspace-minimal
+        volumes:
+            - ./workspace:/workspace
+        ports:
+            - 8080:8080
+        environment: 
+            WORKSPACE_AUTH_USER: $WORKSPACE_AUTH_USER
+            WORKSPACE_AUTH_PASSWORD: $WORKSPACE_AUTH_PASSWORD
