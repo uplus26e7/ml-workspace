@@ -19,8 +19,15 @@ Jupyter Notebook/Lab、GUI Desktop 環境、VS Code、FileBrowser などを Web 
 docker-compose up -d
 ```
 
+## Useful Libraries
+
+- [japanize-matplotlib][2]  
+    matplotlibを日本語対応できるライブラリ
+
 ## Preferences
 
 1. [Machine Learning Workspace][1]
+2.[japanize-matplotlib - GitHub][2]
 
 [1]: https://github.com/ml-tooling/ml-workspace
+[2]: https://github.com/uehara1414/japanize-matplotlib
