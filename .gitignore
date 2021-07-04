@@ -1,5 +1,6 @@
 workspace/data/*
 workspace/results/*
+workspace/notebooks/*
 .ipynb_checkpoints
 .workspace
 .env
